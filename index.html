@@ -1,6 +1,7 @@
 <head>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<title>Guillermo Murano</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" class="ui" href="https://semantic-ui.com/dist/semantic.min.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
 			if (!lang)
 				lang = (navigator.language || navigator.userLanguage).split('-')[0];
 			const url =
-				"/cv/gmurano-" + lang + ".html";
+				"/cv/gmurano-" + lang.toLowerCase() + ".html";
 			if (window.XMLHttpRequest)
 			{// code for IE7+, Firefox, Chrome, Opera, Safari, SeaMonkey
 				request = new XMLHttpRequest();
